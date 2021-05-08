@@ -1,0 +1,198 @@
+@import url(./fonts.css);
+@import url(./partials/_variables.css);
+@import url(./about.css);
+@import url(./hobbies.css);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+header {
+    background: var(--gradient-color);
+}
+
+.header__logo {
+    width: 60px;
+}
+
+.header__area .main-menu .nav-item .nav-link {
+    font: normal 500 15px/2px var(--roboto);
+    padding: 1.7rem;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+.header__area .main-menu .navbar-nav .active {
+    background: whitesmoke;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header__area .main-menu .navbar-nav a:hover {
+    color: rgb(250, 5, 197);
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.transform-border {
+    position: relative;
+    max-width: 400px;
+    margin: 50px auto;
+    transform: perspective(3000px) rotateY(29deg);
+}
+
+.transform-border img {
+    display: block;
+    width: 100%;
+    box-shadow: -12px 11px 1px #f2f2f2;
+}
+
+.transform-border:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -22px;
+    top: 22px;
+    background: #cccccc;
+    z-index: -1;
+}
+
+.transform-border img:hover {
+    transform: perspective(3000px) rotateY(35deg);
+}
+
+/*Banner Area*/
+
+/*Buttons*/
+
+.pushable {
+    background: darkgreen;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+
+.front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: green;
+    color: white;
+    transform: translateY(-6px);
+}
+
+.pushable:active .front {
+    transform: translateY(-2px);
+}
+
+/*Hard skils*/
+
+.hard__skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills__title {
+    font-family: 'Zen Dots', cursive;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.carousel {
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.carousel img {
+    height: 400px;
+}
+
+.js__image {
+    height: 400px;
+}
+
+/*Soft skils*/
+
+.soft__skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel img {
+    height: 400px;
+}
+
+.soft__skills .carousel-item h3 {
+    background-color: rgba(245, 237, 237, 0.596);
+    border-radius: 15px;
+}
+
+.communicative {
+    color: blue;
+}
+
+.creative {
+    color: black;
+}
+
+.self-organized {
+    color: rgb(41, 2, 26);
+}
+
+.stress-resistant {
+    color: rgb(255, 255, 255);
+}
+
+/*Languages */
+
+.languages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.progress {
+    width: 80%;
+    background-color: transparent;
+    margin-bottom: 4px;
+    height: 25px;
+    font-weight: 900;
+}
+
+.language {
+    margin-right: 8px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+/*Footer */
+
+footer span a {
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer span a:hover {
+    text-decoration: none;
+}

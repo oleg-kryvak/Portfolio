@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="/styles/bootstrap.min.css">
+    <!--font awesome icons-->
+    <link rel="stylesheet" href="./styles/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="icons/fav-icon.ico">
+
+    <!--custom-->
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/projects/calculator.css">
+    
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!--=================================Start Header-->
+    <header class="header__area">
+        <div class="main-menu">
+
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="/img/logo.jpg" class="header__logo" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <div class="mr-auto"></div>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/hobbies.html">Hobbies</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Projects
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="/calculator.html">Calculator</a></li>
+                                    <li><a class="dropdown-item" href="/seatGenerator.html">SeatGenerator</a></li>
+                                    <li><a class="dropdown-item" href="/todoList.html">TodoList</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="https://github.com/oleg-kryvak?tab=repositories">GitHub</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contacts.html">Contacts</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--=================================End Header-->
+    <!--=================================Start Main area-->
+
+    <main data-theme="">
+        <h1>Simple calculator with dark mode</h1>
+        <div class="main">
+            <div>
+                <h3>Storage</h3>
+                <div class="calculator__storage"></div>
+
+            </div>
+            <div class="calculator">
+                <div class="calculator__header">
+                    <div class="switchBox">
+                        <input type="checkbox" name="" id="switch" class="switch" value="switch">
+                        <div class="box"></div>
+                    </div>
+                </div>
+                <div class="calculator__input">
+                    <input type="text" name="" id="display" disabled>
+                    <input type="button" value="C" class="calculator__cancel-btn">
+                </div>
+                <div class="row">
+                    <input type="button" value="7">
+                    <input type="button" value="8">
+                    <input type="button" value="9">
+                    <input type="button" value="+">
+                </div>
+                <div class="row">
+                    <input type="button" value="4">
+                    <input type="button" value="5">
+                    <input type="button" value="6">
+                    <input type="button" value="-">
+                </div>
+                <div class="row">
+                    <input type="button" value="1">
+                    <input type="button" value="2">
+                    <input type="button" value="3">
+                    <input type="button" value="*">
+                </div>
+                <div class="row">
+                    <input style="border-radius: 0 0 0 10px;" type="button" value=".">
+                    <input type="button" value="0">
+                    <input style="background: #542e71; color: white; border-radius: 10px;" type="button" value="=">
+                    <input style="border-radius: 0 0 10px 0;" type="button" value="/">
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!--=================================End Main area-->
+
+    <footer>
+        <span>Made by <a href="/about.html">Oleg Kryvak</a></span>
+        <div class="socials">
+            <a target="_blank" href="https://www.instagram.com/drago_blanco/"><img class="social__item"
+                    src="/img/svg/instagram.svg" alt="ista logo"></a>
+            <a target="_blank" href=""><img class="social__item" src="/img/telegram.png" alt="ista logo"></a>
+            <a target="_blank" href="https://github.com/oleg-kryvak?tab=repositories"><img class="social__item"
+                    src="/img/GitHub.png" alt="ista logo"></a>
+        </div>
+    </footer>
+
+    <!--JQuery-->
+    <script src="./scripts/jquery.js"></script>
+    <!--Bootstrap js-->
+    <script src="/scripts/bootstrap.min.js"></script>
+    <script src="scripts/projects/calculator.js"></script>
+</body>
+
+</html>

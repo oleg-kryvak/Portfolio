@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="calculator.css">
+        <link rel="stylesheet" href="../../styles/bootstrap.min.css">
+        <link rel="stylesheet" href="../../styles/styles.css">
+    
+       
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="header__area">
+        <div class="main-menu">
+
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="/img/logo.jpg" class="header__logo" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <div class="mr-auto"></div>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/hobbies.html">Hobbies</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Projects
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="/myProjects/calculator/calculator.html">Calculator</a></li>
+                                    <li><a class="dropdown-item" href="/myProjects/seatGenerator/seatGenerator.html">SeatGenerator</a></li>
+                                    <li><a class="dropdown-item" href="/myProjects/todoList/todoList.html">TodoList</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">GitHub</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contacts.html">Contacts</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <main data-theme="">
+        <h1>Simple calculator with dark mode</h1>
+        <div class="main">
+            <div>
+                <h3>Storage</h3>
+                <div class="calculator__storage"></div>
+
+            </div>
+            <div class="calculator">
+                <div class="calculator__header">
+                    <div class="switchBox">
+                        <input type="checkbox" name="" id="switch" class="switch" value="switch">
+                        <div class="box"></div>
+                    </div>
+                </div>
+                <div class="calculator__input">
+                    <input type="text" name="" id="display" disabled>
+                    <input type="button" value="C" class="calculator__cancel-btn">
+                </div>
+                <div class="row">
+                    <input type="button" value="7">
+                    <input type="button" value="8">
+                    <input type="button" value="9">
+                    <input type="button" value="+">
+                </div>
+                <div class="row">
+                    <input type="button" value="4">
+                    <input type="button" value="5">
+                    <input type="button" value="6">
+                    <input type="button" value="-">
+                </div>
+                <div class="row">
+                    <input type="button" value="1">
+                    <input type="button" value="2">
+                    <input type="button" value="3">
+                    <input type="button" value="*">
+                </div>
+                <div class="row">
+                    <input style="border-radius: 0 0 0 10px;" type="button" value=".">
+                    <input type="button" value="0">
+                    <input style="background: #542e71; color: white; border-radius: 10px;" type="button" value="=">
+                    <input style="border-radius: 0 0 10px 0;" type="button" value="/">
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="../../scripts/bootstrap.min.js"></script>
+    
+    <script src="../../scripts/jquery.js"></script>
+    
+    <script type="module" src="calculator.js"></script>
+</body>
+
+</html>

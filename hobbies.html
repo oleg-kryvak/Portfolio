@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="/styles/bootstrap.min.css">
+    <!--font awesome icons-->
+    <link rel="stylesheet" href="./styles/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="icons/fav-icon.ico">
+
+    <!--custom-->
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!--=================================Start Header-->
+    <header class="header__area">
+        <div class="main-menu">
+
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="/img/logo.jpg" class="header__logo" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <div class="mr-auto"></div>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/hobbies.html">Hobbies</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Projects
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="/calculator.html">Calculator</a></li>
+                                    <li><a class="dropdown-item" href="/seatGenerator.html">SeatGenerator</a></li>
+                                    <li><a class="dropdown-item" href="/todoList.html">TodoList</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://github.com/oleg-kryvak?tab=repositories">GitHub</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="/contacts.html">Contacts</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--=================================End Header-->
+    <!--=================================Start Main area-->
+    <div class="page-wrapper">
+
+        <h1 class="hobbies__title">Here you can read about my hobbies. Enjoy</h1>
+
+
+        <!--=================================Start Football area-->
+        <section class="football">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header " id="headingOne">
+                        <button class="accordion-button hobby__name" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Football
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Football</strong> is a family of team sports
+                            that involve, to varying degrees, kicking a ball to score a goal.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Why it is my hobby?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Firstly! </strong>In my opinion, this is the most popular kind of sport in the whole
+                            wide world.<br />
+                            <strong>Secondly! </strong>I've been playing football for 12 years. I also took part in
+                            different competition and won prizes.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="hobbies__figure">
+                <figure class="figure">
+                    <img src="/img/hobbies/football.jpg" class="figure-img img-fluid rounded" alt="football">
+                    <figcaption class="figure-caption text-end ">El clasico </figcaption>
+                </figure>
+                <div class="hobbies__animation">
+                    <div class="football__gate-container">
+
+                        <img class="football__gate" src="/icons/hobbies//footballGate.png">
+                    </div>
+                    <img class="football__anim" src="/icons/hobbies/football.png">
+                </div>
+
+            </div>
+        </section>
+        <!--=================================End Football area-->
+        <!--=================================Start Table tennis area-->
+        <section class="table-tennis">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header " id="headingOne">
+                        <button class="accordion-button hobby__name" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Table tennis
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Table tennis</strong> also known as <strong> ping-pong </strong> and <strong>
+                                whiff-whaff </strong>, is a sport
+                            in which two or four players hit a lightweight ball, also known as the ping-pong ball, back
+                            and
+                            forth across a table using small rackets.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Why table tennis?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Oh, this kind of sport improve your attentive and
+                            reactive skills.
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="hobbies__figure">
+                <div class="hobbies__animation table-tennis__animation">
+                    <img class="first-racket" src="/icons/hobbies/ping-pong-rocket.png">
+                    <img class="ping-pong-ball" src="/icons/hobbies/ping-pong-ball.png">
+                    <img class="second-racket" src="/icons/hobbies/ping-pong-rocket.png">
+                </div>
+                <figure class="figure">
+                    <img src="/img/hobbies/table-tennis.jpg" class="figure-img img-fluid rounded" alt="table tennis">
+                    <figcaption class="figure-caption">Let's play!</figcaption>
+                </figure>
+
+
+            </div>
+        </section>
+        <!--=================================End Table tennis area-->
+
+
+
+        <!--=================================Start Proframming area-->
+        <section class="programming">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header " id="headingOne">
+                        <button class="accordion-button hobby__name" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Programming
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Programming</strong> is the process of creating a set of instructions that tell a
+                            computer how to perform a task.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Do you write code?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            If you answer is no, just <strong>try it</strong>! You' ll enjoy creating new applications,
+                            collaborating with other programmers, who are more experienced than you. I' ve been writing
+                            code
+                            for 2 years and never regret I do it.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="hobbies__figure">
+                <figure class="figure">
+                    <img src="/img/hobbies/programing.jpg" class="figure-img img-fluid rounded" alt="programing">
+                    <figcaption class="figure-caption text-end ">I adore do tasks in Code wars!</figcaption>
+                </figure>
+                <div class="hobbies__animation programing__animation">
+                    <div class="hello">
+
+                        <span>H</span>
+                        <span>E</span>
+                        <span>L</span>
+                        <span>L</span>
+                        <span>O</span>
+                    </div>
+                    <div class="world">
+
+                        <span>W</span>
+                        <span>O</span>
+                        <span>R</span>
+                        <span>L</span>
+                        <span>D</span>
+                        <span>!</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--=================================End Programming area-->
+
+
+        <!--=================================Start Investment area-->
+        <section class="ivestment">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header " id="headingOne">
+                        <button class="accordion-button hobby__name" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Investment
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>An investment</strong> is an asset or item acquired with the goal of generating
+                            income
+                            or appreciation.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            All started with books...
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Once upon a time I got interesting book "Rich Dad Poor Dad". This masterpiece inspired me.
+                            It's
+                            amazing to know how money makes money.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="hobbies__figure">
+                <div class="hobbies__animation">
+
+                </div>
+                <figure class="figure">
+                    <img src="/img/hobbies/investment.jpg" class="figure-img img-fluid rounded" alt="football">
+                    <figcaption class="figure-caption">Invest in your future!</figcaption>
+                </figure>
+
+
+            </div>
+        </section>
+        <!--=================================End Investment area-->
+
+
+        <!--=================================End Main area-->
+    </div>
+    <footer>
+        <span>Made by <a href="/about.html">Oleg Kryvak</a></span>
+        <div class="socials">
+            <a target="_blank" href="https://www.instagram.com/drago_blanco/"><img class="social__item"
+                    src="/img/svg/instagram.svg" alt="ista logo"></a>
+            <a target="_blank" href=""><img class="social__item" src="/img/telegram.png" alt="ista logo"></a>
+            <a target="_blank" href="https://github.com/oleg-kryvak?tab=repositories"><img class="social__item"
+                    src="/img/GitHub.png" alt="ista logo"></a>
+        </div>
+    </footer>
+
+    <!--JQuery-->
+    <script src="./scripts/jquery.js"></script>
+    <!--Bootstrap js-->
+    <script src="/scripts/bootstrap.min.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>

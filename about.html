@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="/styles/bootstrap.min.css">
+  <!--font awesome icons-->
+  <link rel="stylesheet" href="./styles/all.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="icons/fav-icon.ico">
+  <!--custom-->
+  <link rel="stylesheet" href="/styles/styles.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!--=================================Start Header-->
+  <header class="header__area">
+    <div class="main-menu">
+
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/img/logo.jpg" class="header__logo" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <div class="mr-auto"></div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/hobbies.html">Hobbies</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/calculator.html">Calculator</a></li>
+                  <li><a class="dropdown-item" href="/seatGenerator.html">SeatGenerator</a></li>
+                  <li><a class="dropdown-item" href="/todoList.html">TodoList</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="https://github.com/oleg-kryvak?tab=repositories">GitHub</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contacts.html">Contacts</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--=================================End Header-->
+  <!--=================================Start Main area-->
+
+  <main class="site-main">
+    <div class="image-decor">
+      <img src="img/myPhoto.jpg" class="img-fluid bio__photo" alt="myPhoto">
+    </div>
+    <!--===============================Start of Bio-->
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Childhood
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            My name is<strong> Oleg Kryvak.</strong>I was born 12 April 2002 in Berezhany. It's a not big city in
+            Ternopil region. I' ve been living in Kozova town since my birth day.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Education
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Firtly, I got my start education in School number 1. After that I went to Gimnasium of Kozova. I' ve been
+            studying in that wonderful place for 7 years. Now I am a student of Lviv National Polytechnic University.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Interesting facts
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            One of my hobbies is playing on guitar. I've been going to Art School for 5 years. Pictures wroten by me are
+            presented on gallery museum in Ternopli.
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--===============================Start of Bio-->
+
+  <!--=================================End Main area-->
+
+  <!--==================================Start Footer-->
+  <footer>
+    <span>Made by <a>Oleg Kryvak</a></span>
+    <div class="socials container">
+      <a target="_blank" href="https://www.instagram.com/drago_blanco/"><img class="social__item"
+          src="/img/svg/instagram.svg" alt="ista logo"></a>
+      <a target="_blank" href=""><img class="social__item" src="/img/telegram.png" alt="ista logo"></a>
+      <a target="_blank" href="https://github.com/oleg-kryvak?tab=repositories"><img class="social__item"
+          src="/img/GitHub.png" alt="ista logo"></a>
+    </div>
+  </footer>
+  <!--==================================End Footer-->
+
+
+  <!--JQuery-->
+  <script src="./scripts/jquery.js"></script>
+  <!--Bootstrap js-->
+  <script src="/scripts/bootstrap.min.js"></script>
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>

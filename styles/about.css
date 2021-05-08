@@ -1,0 +1,79 @@
+/*Bio Photo*/
+.bio__photo {
+    max-width: 500px;
+    margin: auto;
+}
+.image-decor {
+    max-width: 600px;
+    margin-bottom: 80px;
+    position: relative;
+    display: table;
+    margin: 50px auto;
+    border: 5px solid #fff;
+    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1);
+ }
+ .image-decor:before, .image-decor:after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 150px;
+    height: 55px;
+    background: #fff;
+    box-shadow: 0 -10px 10px -5px rgba(0, 0, 0, .1);
+ }
+ .image-decor:before {
+    left: -50px;
+    bottom: -30px;
+    transform: rotate(30deg);
+ }
+ .image-decor:after {
+    right: -50px;
+    bottom: -30px;
+    transform: rotate(-30deg);
+ }
+ .image-decor img {
+    display: block;
+ }
+
+/*Bio content*/
+.site-main{
+   width: 80%;
+   margin: auto;
+}
+.accordion{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.accordion-button{
+   background-color: blueviolet;
+}
+.accordion-button:not(.collapsed){
+   background-color: brown;
+}
+.accordion-collapse .collapse .show{
+   background-color: brown;
+}
+/*Footer */
+footer{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 0 10px 0;
+   background-color: rgb(18, 8, 29);
+}
+footer span{
+   color: whitesmoke;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social__item{
+   width: 40px;
+   height: 40px;
+   margin-left: 15px;
+   border-radius: 50%;
+}
